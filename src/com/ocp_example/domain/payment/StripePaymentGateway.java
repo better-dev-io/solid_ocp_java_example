@@ -2,6 +2,7 @@ package com.ocp_example.domain.payment;
 
 import com.ocp_example.model.PurchaseOrder;
 
+//StripePaymentGateway mimics stripe e-payment provider
 public class StripePaymentGateway implements PaymentGateway {
 
     @Override
